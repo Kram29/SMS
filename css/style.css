@@ -47,8 +47,14 @@ body > * {
 
 }
 
+#tourist-spot h1.display-4{
+   font-weight: bold;
+   margin-top: 50px;
+   
+}
+
 /* Image container styles */
-.image-container {
+#tourist-spot .image-container {
    position: relative;
    overflow: hidden;
    margin-bottom: 20px;
@@ -56,7 +62,7 @@ body > * {
 }
 
 /* Image styles */
-.image-container img {
+#tourist-spot .image-container img {
    width: 100%;
    height: 300px; 
    display: block;
@@ -64,7 +70,7 @@ body > * {
 }
 
 /* Image caption styles */
-.image-caption {
+#tourist-spot .image-caption {
    position: absolute;
    bottom: 0;
    left: 0;
@@ -80,13 +86,13 @@ body > * {
 }
 
 /* Image caption title styles */
-.image-caption h5 {
+#tourist-spot .image-caption h5 {
    margin-bottom: 5px;
    font-size: 1.2rem;
 }
 
 /* Image caption paragraph styles */
-.image-caption p {
+#tourist-spot .image-caption p {
    margin-bottom: 0;
    font-size: 0.9rem;
 }
@@ -98,6 +104,23 @@ body > * {
    width: 100%;
    z-index: 1000;
 }
+
+#about h1.display-3{
+   font-weight: bold;
+   margin-top: 50px;
+   
+}
+#about h1.display-4{
+   text-align: left;
+   font-weight: bold;
+
+}
+
+#about p.lead{
+   text-align: justify;
+}
+
+
 
 
 
